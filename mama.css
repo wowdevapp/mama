@@ -1,10 +1,18 @@
 html,
 body {
   height: 100%;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.background {
+  top: 0;
+  left: 0;
   background-image: url('./assets/img/background.jpg');
   background-position: center;
   background-size: cover;
+  z-index: -1;
 }
 
 .oldenburg-regular {
@@ -28,7 +36,46 @@ body {
   background-color: #EFA669 !important
 }
 
+.bg-secondary {
+  background-color: #82ABB8 !important
+}
+
 .home-btn {
   border-radius: 50px;
   min-width: 150px;
+}
+
+
+/* mobile version  */
+
+@media screen and (max-width: 900px) {
+  .background {
+    background-image: url('./assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(90deg);
+  }
+}
+
+
+/* start contact page style */
+
+.contact-background {
+  top: 0;
+  left: 0;
+  background-image: url('./assets/img/bg-contact.png');
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.image-bottom {
+  background-image: url('./assets/img/foods.png');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px !important;
 }
