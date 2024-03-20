@@ -79,11 +79,10 @@ body {
   z-index: -1;
 }
 
-.image-bottom {
+/* .image-bottom {
   background-image: url('./assets/img/foods.png');
-  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px !important;
-}
+} */
