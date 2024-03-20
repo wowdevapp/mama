@@ -20,6 +20,7 @@ body {
   background-image: url('./assets/img/background.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -56,14 +57,13 @@ body {
 
 /* mobile version  */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .background {
-    background-image: url('./assets/img/background.jpg');
+    background-image: url('./assets/img/bg-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
-    transform: rotate(90deg);
   }
 }
 
